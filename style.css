@@ -113,6 +113,10 @@ h6 {
   margin-bottom: 30px;
 }
 
+.card--alt-color {
+  background-color: #bbbbbb;
+}
+
 .card__playlist-title {
   font-size: 1.25rem;
   font-weight: 600;
