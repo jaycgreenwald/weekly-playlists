@@ -7,9 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vibur&display=swap" rel="stylesheet">
   <title>
     Whiteboard Playlists
   </title>
@@ -21,68 +19,40 @@
       Music Playlists
     </h1>
     <h2 class="header__subtitle">
-      2024-2025
+      LS 2024-2025
     </h2>
-    <img src="images/Boombox-amico.png" alt="" width="500px" class="header__image">
+    <img src="images/Cassette player-amico.png" alt="" class="header__image">
     <p class="header__instructions">
       Click on or tap the QR code to open on same device. Scan QR code with phone camera to open on a different device.
     </p>
   </header>
   <main class="list">
-    <div class="card">
-      <p class="card__playlist-title">
-        Favorite Hits of Summer 2024
-      </p>
-      <p class="card__playlist-date">
-        Compiled September 7, 2024
-      </p>
-      <a href="https://music.apple.com/us/playlist/ire-favorite-summer-songs-2024/pl.u-e98llp9uMqoga" class="link"
-        target="_blank">
-        <img src="images/apple/09072024_apple.png" alt="QR code for the Apple Playlist" class="card__qr">
-        <p class="card__music-service">
-          APPLE MUSIC
-        </p>
-      </a>
-    </div>
-    <div class="card">
-      <p class="card__playlist-title">
-        Favorite Hits of Summer 2024
-      </p>
-      <p class="card__playlist-date">
-        Compiled September 7, 2024
-      </p>
-      <a href="https://open.spotify.com/playlist/4rcb4RrXedK3DBbvnA5URC?si=9b02c708a2a84cbd" class="link"
-        target="_blank">
-        <img src="images/spotify/09072024_spotify.png" alt="QR code for the Spotify Playlist" class="card__qr">
-        <p class="card__music-service">
-          SPOTIFY
-        </p>
-      </a>
-    </div>
-    <div class="card card--alt-color">
-      <p class="card__playlist-title">
-        Deep Voices 2024
-      </p>
-      <p class="card__playlist-date">
-        Compiled September 18, 2024
-      </p>
+    <!-- start/end of a card -->
+    <div class="card card--alt">
       <a href="https://music.apple.com/us/playlist/ls-deep-voices-playlist-2024/pl.u-aZb00VvCK4kl1" class="link"
         target="_blank">
-        <img src="images/apple/09182024_apple.png" alt="QR code for the Apple Deep Voices Playlist" class="card__qr">
-        <p class="card__music-service">
-          APPLE MUSIC
+        <p class="card__playlist-title">
+          Deep Voices
         </p>
+        <p class="card__playlist-date">
+          Compiled September 18, 2024
+        </p>
+        <img src="images/apple/09182024_apple.png" alt="QR code for the Apple Deep Voices Playlist" class="card__qr">
+        <p class="card__music-service card__music-service--alt">
+          APPLE MUSIC
       </a>
+      </p>
     </div>
-    <div class="card card--alt-color">
-      <p class="card__playlist-title">
-        Deep Voices 2024
-      </p>
-      <p class="card__playlist-date">
-        Compiled September 18, 2024
-      </p>
+    <!-- start/end of a card -->
+    <div class="card card--alt">
       <a href="https://open.spotify.com/playlist/7miDNIaCweOQ0OFCFCQQhC?si=016902a605584f81" class="link"
         target="_blank">
+        <p class="card__playlist-title">
+          Deep Voices
+        </p>
+        <p class="card__playlist-date">
+          Compiled September 18, 2024
+        </p>
         <img src="images/spotify/09182024_spotify.png" alt="QR code for the Spotify Deep Voices Playlist"
           class="card__qr">
         <p class="card__music-service">
@@ -90,9 +60,47 @@
         </p>
       </a>
     </div>
+    <!-- start/end of a card -->
+    <div class="card">
+      <a href="https://music.apple.com/us/playlist/ire-favorite-summer-songs-2024/pl.u-e98llp9uMqoga" class="link"
+        target="_blank">
+        <p class="card__playlist-title">
+          Favorite Hits of Summer
+        </p>
+        <p class="card__playlist-date">
+          Compiled September 7, 2024
+        </p>
+        <img src="images/apple/09072024_apple.png" alt="QR code for the Apple Playlist" class="card__qr">
+        <p class="card__music-service">
+          APPLE MUSIC
+        </p>
+      </a>
+    </div>
+    <!-- start/end of a card -->
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/4rcb4RrXedK3DBbvnA5URC?si=9b02c708a2a84cbd" class="link"
+        target="_blank">
+        <p class="card__playlist-title">
+          Favorite Hits of Summer
+        </p>
+        <p class="card__playlist-date">
+          Compiled September 7, 2024
+        </p>
+        <img src="images/spotify/09072024_spotify.png" alt="QR code for the Spotify Playlist" class="card__qr">
+        <p class="card__music-service">
+          SPOTIFY
+        </p>
+      </a>
+    </div>
+    <!-- start/end of a card -->
   </main>
   <footer>
-    <a href="https://storyset.com/enjoy">Enjoy illustrations by Storyset</a>
+    <a class="footer__link" href="https://storyset.com/enjoy">
+      Walkman illustration by Storyset
+    </a>
+    <p class="footer__copyright">
+      Created and maintined by Jason Greenwald
+    </p>
   </footer>
 </body>
 

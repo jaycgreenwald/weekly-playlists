@@ -56,45 +56,46 @@ h6 {
 
 body {
   max-width: 600px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
   color: #37474f;
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Archivo Black", sans-serif;
-}
-
 .header {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 425px;
+  padding: 20px 0;
 }
 
 .header__title {
-  font-size: 3.5rem;
-  text-align: center;
+  font-size: 4.5rem;
+  line-height: .9;
+  padding-right: 25px;
+  text-align: right;
 }
 
 .header__subtitle {
+  color: #fff;
   font-size: 3rem;
-  text-align: center;
-  /* padding-bottom: 20px; */
+  line-height: .9;
+  padding-right: 25px;
+  text-align: right;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgba(55,71, 79, .7);
 }
 
 .header__image {
   margin: 0 auto;
+  max-width: 300px;
+  z-index: -100;
 }
 
 .header__instructions {
+  font-family: "Vibur", cursive;
   font-size: 1rem;
   padding-right: 20px;
   padding-left: 20px;
+  text-align: center;
 }
 
 .link {
@@ -104,45 +105,56 @@ h6 {
 }
 
 .card {
-  margin: 0 auto;
-  background-color: #ffb9af;
-  border-radius: 5px;
-  padding: 30px 10px 0px 10px;
-  max-width: 360px;
+  background-color: #CE94D8;
+  border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin: 30px auto;
+  max-width: 360px;
+  padding-top: 13px;
+  position: relative;
 }
 
-.card--alt-color {
-  background-color: #bbbbbb;
+.card--alt {
+  background-color: #EED9F1;
 }
 
 .card__playlist-title {
-  font-size: 1.25rem;
+  color: #263238;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
 }
 
 .card__playlist-date {
+  font-family: "Vibur", serif;
   font-size: 1rem;
   text-align: center;
   font-style: italic;
+  color: #263238;
 }
 
 .card__qr {
   margin: 0 auto;
-  width: 300px;
-  padding-top: 20px;
+  max-width: 200px;
+  /* padding-top: 20px; */
 }
 
 .card__music-service {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   margin: 0;
-  padding: 15px 0;
+  /* padding: 15px 0; */
+  font-family: "Bebas Neue", sans-serif;
+  color: #263238;
 }
 
 footer {
   text-align: center;
+  font-family: "Vibur", cursive;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #9E59AA;
 }
