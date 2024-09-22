@@ -76,12 +76,12 @@ body {
 
 .header__subtitle {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.25rem;
   line-height: .9;
   padding-right: 25px;
   text-align: right;
-  -webkit-text-stroke-width: .1px;
-  -webkit-text-stroke-color: rgba(55,71, 79, .7);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(55,71, 79, .5);
 }
 
 .header__image {
@@ -136,7 +136,6 @@ body {
 .card__qr {
   margin: 0 auto;
   max-width: 200px;
-  /* padding-top: 20px; */
 }
 
 .card__music-service {
@@ -144,8 +143,6 @@ body {
   font-size: 3rem;
   font-weight: 600;
   margin: 0;
-  /* padding: 15px 0; */
-  font-family: "Bebas Neue", sans-serif;
   color: #263238;
 }
 
