@@ -118,6 +118,10 @@ body {
   background-color: #EED9F1;
 }
 
+.card--orange {
+  background-color: #ffa836;
+}
+
 .card__playlist-title {
   color: #263238;
   font-size: 2rem;
